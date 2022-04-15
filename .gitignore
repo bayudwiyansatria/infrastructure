@@ -3,11 +3,23 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# User-specific directory
+.terraform/
+secrets/
+_accounts/
+
 # User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+*.tfvars
+!*.auto.tfvars
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+.terragrunt-cache
+*-debug.*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

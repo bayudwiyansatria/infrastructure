@@ -1,0 +1,12 @@
+[submodule "terraform"]
+	path = terraform
+	url = git@github.com:bayudwiyansatria/terraform-modules.git
+  branch = master
+  update = merge
+	shallow = false
+[submodule "terragrunt/components"]
+	path = terragrunt/components
+	url = git@github.com:bayudwiyansatria/terragrunt-components.git
+  branch = master
+  update = merge
+	shallow = false
